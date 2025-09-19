@@ -1,0 +1,2 @@
+Hello Text File
+This is a simple TXT file.

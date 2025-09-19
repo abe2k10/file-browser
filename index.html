@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Browser</title>
+  <!-- Pico.css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <h1>My Files</h1>
+  <p>This is a file browser</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Icon</th>
+        <th>File Name</th>
+        <th>Type</th>
+        <th>Size</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i class="fa-solid fa-image"></i></td>
+        <td><a href="hello.png">hello.png</a></td>
+        <td>PNG</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-code"></i></td>
+        <td><a href="sample.html">sample.html</a></td>
+        <td>HTML</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-brackets-curly"></i></td>
+        <td><a href="data.json">data.json</a></td>
+        <td>JSON</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-file-lines"></i></td>
+        <td><a href="notes.txt">notes.txt</a></td>
+        <td>TXT</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-file-pdf"></i></td>
+        <td><a href="hello.pdf">hello.pdf</a></td>
+        <td>PDF</td>
+        <td>—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Browser Observations</h2>
+  <ul>
+    <li>Images open directly in the browser tab.</li>
+    <li>HTML pages render as websites.</li>
+    <li>Text and JSON show raw text.</li>
+    <li>PDFs open in the built-in PDF viewer.</li>
+  </ul>
+</body>
+</html>
